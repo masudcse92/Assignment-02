@@ -134,8 +134,8 @@ section.love-enjoy-features {
 }
 
 .love-enjoy-features-img {
-    padding-left: 58px;
-    padding-bottom: 100px;
+    padding-left: 75px;
+    padding-bottom: 70px;
 }
 
 img.love-image {
@@ -148,4 +148,7 @@ span.year-experience {
     text-align: center;
     padding: 13px;
     color: #fff;
+    position: relative;
+    top: -48px;
+    left: -40px;
 }
