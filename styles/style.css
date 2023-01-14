@@ -13,11 +13,25 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
+.btn {
+    background-color: #FF900E;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 15px;
+}
+
 /* ======== Header style here ========= */
 header {
     background-color: #FFF4E7;
-    height: 100vh;
-    padding: 40px 240px;
+    /* height: 100vh; */
+    padding: 40px 180px;
 }
 
 .header-logo a {
@@ -44,4 +58,17 @@ nav a {
     color: #424242;
     font-size: 18px;
     padding-left: 30px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 50px 50px 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
 }
