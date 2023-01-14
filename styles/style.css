@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* ======== Common style here ========= */
+a {
+    text-decoration: none;
+}
+
+/* ======== Header style here ========= */
+header {
+    background-color: #FFF4E7;
+    height: 100vh;
+    padding: 40px 240px;
+}
+
+.header-logo a {
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    line-height: 60px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: #424242;
+    font-size: 18px;
+    padding-left: 30px;
+}
