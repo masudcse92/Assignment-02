@@ -225,7 +225,12 @@ footer {
 /* // Small devices (landscape phones, 576px and up)  */
 @media (max-width: 576px) {
     header {
-        padding: 26px 50px;
+        padding: 40px 50px;
+        margin-bottom: 40px;
+    }
+
+    .header-details {
+        margin-top: 20px;
     }
 
     .main-header {
@@ -252,7 +257,7 @@ footer {
     }
 
     button.btn {
-        margin-bottom: 15px;
+        margin-bottom: 35px;
     }
 
     main {
@@ -263,7 +268,6 @@ footer {
     section.features-team {
         display: flex;
         flex-direction: column;
-        /* margin: 20px; */
     }
 
     .team-gallery {
@@ -286,7 +290,8 @@ footer {
         display: flex;
         padding: 0px;
         flex-direction: column;
-        /* margin: 20px; */
+
+        margin-top: 30px;
         padding: 0px;
     }
 
@@ -330,7 +335,7 @@ footer {
     }
 
     .our-sponspors-container {
-        margin-top: 0px;
+        margin-top: 40px;
     }
 
     .sponspors-details {
@@ -339,6 +344,7 @@ footer {
 
     .Sponspors-logo {
         grid-template-columns: repeat(1, 1fr);
+        margin-top: 50px;
     }
 
     .Sponspors-logo img {
