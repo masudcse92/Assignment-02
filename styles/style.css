@@ -240,7 +240,63 @@ footer {
     }
 
     .header-content {
+        padding: 0px;
+    }
+
+    .header-content h1 {
+        font-size: 20px;
+    }
+
+    button.btn {
+        margin-bottom: 15px;
+    }
+
+    main {
         padding: 0;
     }
 
+    section.features-team {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .team-gallery {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .team-content {
+        width: 100%;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    /* section.love-enjoy-features */
+
+    .love-enjoy-features {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+        margin: 20px;
+        padding: 0px;
+    }
+
+    .love-enjoy-features-content,
+    .love-enjoy-features-img {
+        width: 100%;
+    }
+
+    .love-enjoy-features-img {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    span.year-experience {
+        top: -103px;
+        left: 0px;
+    }
 }
