@@ -214,6 +214,51 @@ p.facts-padding-right {
     width: 180px;
 }
 
+/* ======== Contact form =========== */
+section.fontacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.contact-from {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* ============== our-store ============ */
+.our-store {}
+
+.story-details {
+    display: flex;
+}
+
 /*================ Footer ================*/
 footer {
     padding: 25px 0;
@@ -221,6 +266,9 @@ footer {
     text-align: center;
     margin-top: 50px;
 }
+
+
+
 
 /* // Small devices (landscape phones, 576px and up)  */
 @media (max-width: 576px) {
