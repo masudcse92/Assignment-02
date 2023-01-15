@@ -253,12 +253,13 @@ footer {
 
     main {
         padding: 0;
+        margin: 20px;
     }
 
     section.features-team {
         display: flex;
         flex-direction: column;
-        margin: 20px;
+        /* margin: 20px; */
     }
 
     .team-gallery {
@@ -281,7 +282,12 @@ footer {
         display: flex;
         padding: 0px;
         flex-direction: column;
-        margin: 20px;
+        /* margin: 20px; */
+        padding: 0px;
+    }
+
+    section.love-enjoy-features {
+        display: flex;
         padding: 0px;
     }
 
@@ -299,4 +305,41 @@ footer {
         top: -103px;
         left: 0px;
     }
+
+    /* some facts  */
+    section.some-facts {
+        /* margin: 20px; */
+    }
+
+    p.facts-padding-right {
+        padding-right: 0px;
+        margin: 8px 0;
+    }
+
+    .some-facts-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .some-facts-box {
+        margin-bottom: 12px;
+    }
+
+    .our-sponspors-container {
+        margin-top: 0px;
+    }
+
+    .sponspors-details {
+        padding: 0px;
+    }
+
+    .Sponspors-logo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Sponspors-logo img {
+        width: 100%;
+        margin-bottom: 21px;
+    }
+
 }
